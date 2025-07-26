@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project RevoU</title>
+
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+    <!-- main content start-->
+     <header>
+        <div class="content">
+         <h1><b>MY TO-DO <span>LIST</span></b></h1>
+            <form>
+                <input type="text" class="task" placeholder="add a new task">
+                <input type="date" class="schedule">
+                <input type="time" class="schedule">
+                <button type="submit">add</button>
+    
+                <div class="section">
+                    <button type="button" class="delete-all-btn">delete all</button>
+                </div>
+            </form>
+        </div>
+        </div>
+
+        <div class="table task"></div>
+     <table id="table">
+        <thead> 
+            <tr>
+                <th>TASK</th>
+                <th>DUE DATE</th>
+                <th>ACTIONS</th>
+            </tr>
+
+        </thead> 
+       
+     <tbody id="task-body">
+        <tr>
+            <td colspan="3" class="not">No tasks available.</td>
+        </tr>
+     </tbody>
+     </table>
+
+     <script src="script.js"></script>
+
+     </
+ </body>
+ </html>
